@@ -143,23 +143,22 @@ let colors_name = "NeoSolarized"
 "
 " Set gui and terminal at the same time.
     let s:gui_mode       = "gui"
-    let s:gui_base03      = "#002b36"
-    let s:gui_base02      = "#073642"
+    let s:gui_base03      = "#002833"
+    let s:gui_base02      = "#003540"
     let s:gui_base01      = "#586e75"
     let s:gui_base00      = "#657b83"
     let s:gui_base0       = "#839496"
     let s:gui_base1       = "#93a1a1"
     let s:gui_base2       = "#eee8d5"
     let s:gui_base3       = "#fdf6e3"
-    let s:gui_yellow      = "#b58900"
-    let s:gui_orange      = "#cb4b16"
-    let s:gui_red         = "#dc322f"
-    let s:gui_magenta     = "#d33682"
+    let s:gui_yellow      = "#bc8e01"
+    let s:gui_orange      = "#e27549"
+    let s:gui_red         = "#de5b58"
+    let s:gui_magenta     = "#d33583"
     let s:gui_violet      = "#6c71c4"
-    let s:gui_blue        = "#268bd2"
-    let s:gui_cyan        = "#2aa198"
-    let s:gui_green       = "#719e07" "experimental
-    "let s:green       = "#859900" "original
+    let s:gui_blue        = "#409bd9"
+    let s:gui_cyan        = "#77c2bb"
+    let s:gui_green       = "#99bd6e"
 
     let s:term_mode       = "cterm"
     let s:term_base03      = "8"
@@ -871,7 +870,7 @@ exe "hi! ALEWarningSign"        . s:fg_yellow   .s:bg_none   .s:fmt_none
 " NeoVim terminal buffer colours "{{{
 " ---------------------------------------------------------------------
 let g:terminal_color_0 = s:gui_base03
-let g:terminal_color_1 = s:gui_red
+let g:terminal_color_1 = s:gui_orange
 let g:terminal_color_2 = s:gui_green
 let g:terminal_color_3 = s:gui_yellow
 let g:terminal_color_4 = s:gui_blue
@@ -881,7 +880,7 @@ let g:terminal_color_7 = s:gui_base2
 
 if g:neosolarized_termBoldAsBright == 1
   let g:terminal_color_8 = s:gui_base02
-  let g:terminal_color_9 = s:gui_orange
+  let g:terminal_color_9 = s:gui_red
   let g:terminal_color_10 = s:gui_base01
   let g:terminal_color_11 = s:gui_base00
   let g:terminal_color_12 = s:gui_base0
